@@ -1,0 +1,28 @@
+# Ignorar archivos de configuración específicos del entorno
+.env
+.env.*
+
+# Ignorar directorios del sistema y caché
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+
+# Ignorar archivos de dependencias y binarios
+/vendor/
+node_modules/
+
+# Ignorar archivos de compilación de PHPStorm, VSCode, etc.
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos de composer
+composer.lock
